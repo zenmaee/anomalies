@@ -1,4 +1,4 @@
-package com.example.stepcounter;
+package com.example.MyApplication2;
 
 public class StepDetector {
 

@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     android:background="@color/colorBackground">
 
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="236dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:text="Insert a 0 instead of leaving blank."
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#076470"
+        android:textColorHighlight="#FFFFFF"
+        android:typeface="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/back"
         android:layout_width="wrap_content"
@@ -27,15 +43,15 @@
         android:layout_height="43dp"
         android:layout_marginStart="106dp"
         android:layout_marginLeft="106dp"
-        android:layout_marginTop="154dp"
+        android:layout_marginTop="152dp"
         android:layout_marginEnd="107dp"
         android:layout_marginRight="107dp"
+        android:gravity="center"
         android:text="CALORIE TRACKER"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#076470"
         android:textColorHighlight="#FFFFFF"
         android:typeface="monospace"
-        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -244,5 +260,16 @@
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/snackcals" />
+
+    <Button
+        android:id="@+id/calorietotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

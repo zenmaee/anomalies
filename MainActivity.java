@@ -1,4 +1,4 @@
-package com.example.anomaliesdraft;
+package com.example.MyApplication2;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        }
+    }
 
     public void toWater(View view) {
         Intent getNameScreenIntent = new Intent(this, water.class);
