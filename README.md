@@ -16,7 +16,7 @@
 
 6. In the AndroidManifest.xml file, include exactly:
 
-<activity android:name=".bmi"/>
+<activity android:name=".bmi"/
 
 activity android:name=".water"/
 
