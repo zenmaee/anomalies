@@ -6,16 +6,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="MainActivity.java">
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
 
 
     <Button
         android:id="@+id/water"
-        android:layout_width="325dp"
-        android:layout_height="54dp"
+        android:layout_width="308dp"
+        android:layout_height="59dp"
         android:layout_marginStart="51dp"
         android:layout_marginLeft="51dp"
-        android:layout_marginTop="49dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="51dp"
         android:layout_marginRight="51dp"
         android:layout_marginBottom="254dp"
@@ -33,10 +34,10 @@
 
     <Button
         android:id="@+id/calorie"
-        android:layout_width="329dp"
-        android:layout_height="56dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
+        android:layout_width="308dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="51dp"
         android:layout_marginRight="51dp"
@@ -52,32 +53,32 @@
 
     <Button
         android:id="@+id/bmi"
-        android:layout_width="328dp"
-        android:layout_height="52dp"
+        android:layout_width="308dp"
+        android:layout_height="59dp"
         android:layout_marginStart="51dp"
         android:layout_marginLeft="51dp"
-        android:layout_marginTop="108dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginRight="44dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
         android:background="#E3E3E3"
         android:onClick="toBMI"
         android:text="BMI Tracker"
         android:textStyle="bold"
         android:typeface="monospace"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <Button
         android:id="@+id/steps"
-        android:layout_width="328dp"
-        android:layout_height="51dp"
+        android:layout_width="308dp"
+        android:layout_height="59dp"
         android:layout_marginStart="51dp"
         android:layout_marginLeft="51dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
         android:background="#E3E3E3"
         android:onClick="toSteps"
         android:text="Steps"
@@ -98,7 +99,7 @@
         android:layout_marginEnd="92dp"
         android:layout_marginRight="92dp"
         android:gravity="center"
-        android:text="FITNESS"
+        android:text="FitApp"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#076470"
@@ -110,5 +111,4 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
