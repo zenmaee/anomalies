@@ -16,10 +16,10 @@
 
 6. In the AndroidManifest.xml file, include exactly:
 
-<activity android:name=".bmi"/>
+activity android:name=".bmi"/>
 <activity android:name=".water"/>
 <activity android:name=".calorie"/>
-<activity android:name=".steps"/>  **Do we still need this?**
+<activity android:name=".steps"/ **Do we still need this?**
 
 7. Open AVD Manager and select Pixel 2 API 27
 8. Press the green play button in the AVD under "Actions"
