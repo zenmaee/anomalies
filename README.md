@@ -6,13 +6,13 @@
 5. Move the following files into the following locations: 
 
 (In MyApplication2 file) app > src > main > java > com > example > myapplication2 **lowercase of uppercase?**
-*Move all .java files into this location
+- Move all .java files into this location
 
 (In MyApplication2 file) app > src > main > res > layout 
-*Move all .xml files EXCEPT colors.xml, strings.xml, and styles.xml into this location
+- Move all .xml files EXCEPT colors.xml, strings.xml, and styles.xml into this location
 
 (In MyApplication2 file) app > src > main > res > values 
-*Move colors.xml, strings.xml, and styles.xml into this location
+- Move colors.xml, strings.xml, and styles.xml into this location
 
 6. In the AndroidManifest.xml file, include exactly (within the quotation marks):
 " <activity android:name=".bmi"/>
