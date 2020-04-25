@@ -24,7 +24,7 @@ activity android:name=".calorie"/
 
 activity android:name=".steps"/ **Do we still need this?**
 
-NOTE: EACH LINE MUST BE ENCLOSED WITHIN A < *line* > 
+NOTE: EACH LINE MUST BE ENCLOSED IN ARROW SYMBOLS WITH NO SPACES e.g. <(line of code)> 
 
 7. Open AVD Manager and select Pixel 2 API 27
 8. Press the green play button in the AVD under "Actions"
