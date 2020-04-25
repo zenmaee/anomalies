@@ -14,11 +14,13 @@
 (In MyApplication2 file) app > src > main > res > values 
 - Move colors.xml, strings.xml, and styles.xml into this location
 
-6. In the AndroidManifest.xml file, include exactly (within the quotation marks):
-" <activity android:name=".bmi"/>
-  <activity android:name=".water"/>
-  <activity android:name=".calorie"/>
-  <activity android:name=".steps"/> " **Do we still need this?**
+6. In the AndroidManifest.xml file, include exactly:
+
+<activity android:name=".bmi"/>
+<activity android:name=".water"/>
+<activity android:name=".calorie"/>
+<activity android:name=".steps"/>  **Do we still need this?**
+
 7. Open AVD Manager and select Pixel 2 API 27
 8. Press the green play button in the AVD under "Actions"
 9. Wait for emulator to boot and select application. 
