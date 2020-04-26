@@ -12,9 +12,9 @@ import androidx.annotation.Nullable;
 
 public class calorie extends Activity {
     TextView totalcals;
-    float num1,num2,num3,num4,num5;
+    private float num1,num2,num3,num4,num5;
     Button calorietotal;
-    float runningtotal = 0;
+    private float runningtotal = 0;
     EditText breakfastcals, lunchcals, dinnercals, snackcals,drinkcals;
 
     @Override
