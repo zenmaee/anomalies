@@ -10,12 +10,15 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 
+
 public class calorie extends Activity {
-    TextView totalcals;
+
+    //PRIVATIZE INFORMATION
+    private TextView totalcals;
     private float num1,num2,num3,num4,num5;
-    Button calorietotal;
+    private Button calorietotal;
     private float runningtotal = 0;
-    EditText breakfastcals, lunchcals, dinnercals, snackcals,drinkcals;
+    private EditText breakfastcals, lunchcals, dinnercals, snackcals,drinkcals;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -23,6 +26,8 @@ public class calorie extends Activity {
 
         setContentView(R.layout.calories_page);
 
+
+        //INITIALIZE UI CONNECTION
         calorietotal = (Button) findViewById(R.id.calorietotal);
         breakfastcals = (EditText) findViewById(R.id.breakfastcals);
         lunchcals = (EditText) findViewById(R.id.lunchcals);
@@ -31,6 +36,7 @@ public class calorie extends Activity {
         drinkcals = (EditText) findViewById(R.id.drinkcals);
         totalcals = (TextView) findViewById(R.id.totalcals);
 
+        //PROCESS CALCULATION
         calorietotal.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
                 num1 = Integer.parseInt(breakfastcals.getText().toString());
@@ -43,8 +49,8 @@ public class calorie extends Activity {
             }
         });
 
-        Intent activityThatCalled = getIntent();
 
+        Intent activityThatCalled = getIntent();
         String previousActivity = activityThatCalled.getExtras().getString("callingActivity");
 
 
