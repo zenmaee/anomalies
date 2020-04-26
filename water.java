@@ -11,8 +11,8 @@ import androidx.annotation.Nullable;
 
 public class water extends Activity {
     TextView water_total;
-    float num1;
-    float runningtotal = 0;
+    prviate float num1;
+    private float runningtotal = 0;
     Button oz8, oz16, oz20, oz32;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
