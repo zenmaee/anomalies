@@ -6,12 +6,12 @@
 5. In the locations: 
 
 (FitApp folder) app > src > main 
-Delete all folders. 
+Delete all files. 
 
-(anomalies-master)
-Copy all folders (AndroidManifest.xml, java, and res) and paste into the FitApp folder (location identical to above). 
+(anomalies-master) 
+Copy all files (AndroidManifest.xml, java, and res) and paste into the FitApp folder (location identical to above). 
 
-7. Open AVD Manager in AndroidStudio and select Pixel 3 XL API R. 
+7. Open AVD Manager in AndroidStudio and select Pixel 3 XL API R/Pixel 2 API 27. 
 8. Press the green play button in the AVD under the "Actions" column. 
 9. Wait for emulator to boot and select application. 
   
