@@ -1,21 +1,18 @@
 # EC327 Final Project Spring '20 Build Instructions:
-1. Download ZIP version of all files in the repository.
+1. Download ZIP version of the repository onto the Desktop. 
 2. Open AndroidStudio and create a project with "Empty Activity".
-3. Project name must be "MyApplication2". **lowercase or uppercase?
-4. On Desktop, open the file "MyApplication2" and then unzip the ZIP file created in step 1. 
-5. Move the following files into the following locations: 
+3. Project name must be "FitApp". 
+4. On Desktop, unzip the ZIP file "anomalies-master". Then open the file "FitApp" created by AndroidStudio. 
+5. In the locations: 
 
-(In MyApplication2 file) app > src > main > java > com > example > myapplication2 **lowercase of uppercase?**
-- Move all .java files into this location
+(FitApp folder) app > src > main 
+Delete all folders. 
 
-(In MyApplication2 file) app > src > main > res > layout 
-- Move all .xml files EXCEPT colors.xml, strings.xml, and styles.xml into this location
+(anomalies-master) app 
+Copy all folders (AndroidManifest.xml, java, and res) and paste into the FitApp folder (location identical to above). 
 
-(In MyApplication2 file) app > src > main > res > values 
-- Move colors.xml, strings.xml, and styles.xml into this location
-
-7. Open AVD Manager and select Pixel 2 API 27
-8. Press the green play button in the AVD under "Actions"
+7. Open AVD Manager in AndroidStudio and select Pixel 3 XL. 
+8. Press the green play button in the AVD under the "Actions" column. 
 9. Wait for emulator to boot and select application. 
   
  
