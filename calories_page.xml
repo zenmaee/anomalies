@@ -302,7 +302,7 @@ Skip to content
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/clear"
+        android:id="@+id/reset"
         android:layout_width="108dp"
         android:layout_height="52dp"
         android:layout_marginEnd="73dp"
