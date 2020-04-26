@@ -11,21 +11,25 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 public class bmi extends Activity {
-    TextView bmi_display;
-    EditText height, weight;
-    Button calc_bmi;
-    float num1, num2, result;
+
+    //PRIVATIZE INFORMATION
+    private TextView bmi_display;
+    private EditText height, weight;
+    private Button calc_bmi;
+    private float num1, num2, result;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.bmi);
 
+
+        //INITIATE THE UI CONNECTION
         height = (EditText) findViewById(R.id.height);
         weight = (EditText) findViewById(R.id.weight);
         calc_bmi = (Button) findViewById(R.id.calc_bmi);
         bmi_display = (TextView) findViewById(R.id.bmi_display);
 
+        //PROCESS CALCULATION
         calc_bmi.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
@@ -39,9 +43,7 @@ public class bmi extends Activity {
 
 
         Intent activityThatCalled = getIntent();
-
         String previousActivity = activityThatCalled.getExtras().getString("callingActivity");
-
 
     }
 }

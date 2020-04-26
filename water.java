@@ -10,21 +10,26 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 public class water extends Activity {
-    TextView water_total;
+
+    //PRIVATIZE VARIABLES
+    private TextView water_total;
     private float num1;
     private float runningtotal = 0;
-    Button oz8, oz16, oz20, oz32;
+    private Button oz8, oz16, oz20, oz32;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.water);
+
+        //INITIATE THE UI CONNECTION
         oz8 = (Button) findViewById(R.id.oz8);
         oz16 = (Button) findViewById(R.id.oz16);
         oz20 = (Button) findViewById(R.id.oz20);
         oz32 = (Button) findViewById(R.id.oz32);
         water_total = (TextView) findViewById(R.id.water_total) ;
 
+
+        //SETUP ALL BUTTONS
         oz8.setOnClickListener(new View.OnClickListener(){
             public void onClick(View view){
 
@@ -61,8 +66,9 @@ public class water extends Activity {
                 water_total.setText(temp_string);
             }
         });
-        Intent activityThatCalled = getIntent();
 
+        
+        Intent activityThatCalled = getIntent();
         String previousActivity = activityThatCalled.getExtras().getString("callingActivity");
 
 
