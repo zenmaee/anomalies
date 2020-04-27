@@ -6,6 +6,7 @@
 5. In the locations: 
 
 (FitApp folder) app > src > main 
+
 Delete all files. 
 
 (anomalies-master) 
