@@ -10,6 +10,7 @@
 Delete all files. 
 
 (anomalies-master) 
+
 Copy all files (AndroidManifest.xml, java, and res) and paste into the FitApp folder (location identical to above). 
 
 7. Open AVD Manager in AndroidStudio and select Pixel 3 XL API R/Pixel 2 API 27. 
